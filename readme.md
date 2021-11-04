@@ -9,7 +9,7 @@ Korean description(한국어 설명) : [https://win-record.tistory.com/7](https:
 <br/>
 ## Directory
 
-![Template Directory](https://github.com/loggingWin/template-android/main/directory.png)
+![Template Directory](https://github.com/loggingWin/template-android/blob/main/directory.png?raw=ture)
 
 |Name|Description|
 |:---|:---|
