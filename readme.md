@@ -6,7 +6,14 @@ interface creation, which are necessary for almost all projects.
 need to be paid attention to.
 
 Korean description(한국어 설명) : [https://win-record.tistory.com/7](https://win-record.tistory.com/7)
-<br/>
+
+
+## Initial Setting
+
+- min sdk version : 28<br/>
+- target sdk version : 30<br/>
+- using view binding
+
 ## Directory
 
 ![Template Directory](https://github.com/loggingWin/template-android/blob/main/directory.png?raw=ture)
@@ -39,17 +46,14 @@ packages(folders) that would be good to add
 - data : data classes such as XXXresponse, XXXbody, user, etc
 - service : service classes
 - view : view classes such as activity, fragment, etc (+ you can add each activity, fragment package into)
-  <br/><br/>
 
-## Gradle :app
+## Theme
+|Name|Description|
+|:---|:---|
+|Theme.AndroidTemplate.NoActionBar|no app bar theme|
+|Theme.AndroidTemplate.FullScreen|no app bar, no status bar theme|
 
-### android
-
-- min sdk version : 28<br/>
-- target sdk version : 30<br/>
-- using view binding
-
-### dependencies
+## Dependencies
 
 - [swipe refresh layout](https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout)
 - [Glide](https://github.com/bumptech/glide)
