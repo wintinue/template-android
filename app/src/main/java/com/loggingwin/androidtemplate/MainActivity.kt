@@ -1,11 +1,17 @@
 package com.loggingwin.androidtemplate
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.loggingwin.androidtemplate.base.BaseActivity
+import com.loggingwin.androidtemplate.databinding.ActivityMainBinding
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
+
+    lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }

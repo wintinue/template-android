@@ -18,7 +18,7 @@ import com.loggingwin.androidtemplate.util.ProgressDialog
 
 open class BaseActivity : AppCompatActivity() {
 
-    var progressDialog: ProgressDialog? = null    // lodding dialog
+    var progressDialog: ProgressDialog? = null    // loading dialog
 
     @SuppressLint("SourceLockedOrientationActivity")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -76,12 +76,12 @@ open class BaseActivity : AppCompatActivity() {
     }
 
     //    activity transition
-    fun transActivity(direction: Direction, doFinish: Boolean) { // 전환 방향 & 액티비티 종료여부
+    fun transActivity(direction: Direction, doFinish: Boolean) { // transition direction & whether current activity finish or not
         Log.d(TAG, "transitActivity: direction($direction) doFinish($doFinish)")
-        if (doFinish) finish() // 종료 선택시 현재 액티비티 종료하기
+        if (doFinish) finish() // finish current activity
 
         when (direction) {
-            Direction.NONE -> overridePendingTransition(0, 0) // 전환 애니메이션 無
+            Direction.NONE -> overridePendingTransition(0, 0) // no transition
             Direction.BOTH_SLIDE_TO_LEFT -> overridePendingTransition( // both slide to left
                 R.anim.slide_in_right,
                 R.anim.slide_out_left
