@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidTemplate</string>
+
+    <string name="file_provider">com.loggingwin.androidtemplate.fileprovider</string>
+
+    <string name="confirm">yes</string>
+    <string name="cancel">no</string>
+
+</resources>
