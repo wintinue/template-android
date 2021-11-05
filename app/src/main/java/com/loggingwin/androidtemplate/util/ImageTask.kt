@@ -66,7 +66,7 @@ class ImageTask {
 
         val req = DownloadManager.Request(Uri.parse(url))
 
-        req.setTitle(fileName) // 제목
+        req.setTitle(fileName) // file name
             .setNotificationVisibility(DownloadManager.Request.VISIBILITY_HIDDEN) // hide notification about download
             .setMimeType("image/*")
             .setDestinationInExternalPublicDir(
