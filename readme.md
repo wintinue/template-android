@@ -36,7 +36,7 @@ Korean description(한국어 설명) : [https://win-record.tistory.com/7](https:
 |ㄴ[ProgressDialog](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/util/ProgressDialog.kt)|loading dialog|
 |ㄴ[ValueCheck](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/util/ValueCheck.kt)|check values with regex patterns<br/>`isEmail()` `getUrl()`
 |ㄴ[ValueConvert](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/util/ValueConvert.kt)|convert value to another<br/>`dpToPx()` `pxToDp()`
-|[App](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/App.kt)|application class|
+|[App](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/App.kt)|application class<br/>`getRetrofit()` `finishActivities()`|
 |[MainActivity](https://github.com/loggingWin/template-android/blob/main/app/src/main/java/com/loggingwin/androidtemplate/MainActivity.kt)|main activity using view binding|
 
 <br/>
